@@ -4,6 +4,6 @@ Dart is a programming language designed by Lars Bak and Kasper Lund and develope
 
 It is an object-oriented, class-based, garbage-collected language with C-style syntax. It can compile to either machine code or JavaScript, and supports interfaces, mixins, abstract classes, reified generics and type inference.
 
-All concepts in data structure is implemented here .
+All concepts in dart language are implemented here .
 
 Checkout !
