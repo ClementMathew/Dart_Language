@@ -91,4 +91,20 @@ void main() {
 
   player.clear();
   print(player);
+
+  DateTime firstDate = DateTime(2022, 4, 20, 12, 0, 0);
+  DateTime secondDate = DateTime(2022, 5, 21, 18, 30, 0);
+
+  var difference = secondDate.difference(firstDate);
+  print(difference.inDays);
+
+  String dateString = '2022-05-20';
+  DateTime date = DateTime.parse(dateString);
+  print(date);
+
+  var email = "clement_20b438cs@gecwyd.ac.in";
+  var domain = "@gecwyd.ac.in";
+  if (email.contains(domain)) {
+    print("true");
+  }
 }
