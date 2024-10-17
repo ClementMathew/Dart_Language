@@ -5,6 +5,7 @@ void main(List<String> args) {
     case 10:
       print("true");
       break;
+
     default:
       print("Error");
   }
